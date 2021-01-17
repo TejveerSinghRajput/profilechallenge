@@ -1,0 +1,75 @@
+body{
+background-color: #008891;
+    height: 100%;
+    font-family:400;
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: -350px, 670px;
+    background-position-y: -550px, 350px;
+    background-size: inherit;
+    position: relative;
+    font-size: 18px;
+    font-weight:400,700;
+}
+
+.profile-card{
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  margin-left: 40%;
+  margin-right: 60%;
+  border-radius: 5%;
+  margin-top: 6%;
+  position: absolute;
+  align-items: center;
+
+}
+
+
+.profile-background{
+  width: 350px;
+    height: 150px;
+    background-image: url(images/bg-pattern-card.svg);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+      }
+
+.victor-profile{
+  border-radius: 100%;
+  margin-top: -10%;
+  position: absolute;
+  align-items: center;
+  margin-left: 135px;
+  display: flex;
+}
+
+.victor-text{
+  margin-top: 20%;
+  margin-left: 135px;
+
+}
+
+table{
+  border-collapse: collapse;
+  margin-left: 8%;
+  margin-top: 10%;
+  margin-right: 8%;
+}
+hr{
+  margin-top: 10%;
+  color: #f5f4f4;
+}
+td{
+  width: 120px;
+}
+
+.fonts,td{
+  font-family: "Montserrat-Thin";
+  color: #999999;
+}
+
+.attribution { font-size: 11px;
+
+ }
+    .attribution a { color: hsl(228, 45%, 44%); }
